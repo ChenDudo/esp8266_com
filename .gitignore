@@ -1,0 +1,37 @@
+# ---- PlatformIO / ESP8266 编译产物 ----
+.pio/
+.pioenvs/
+.piolibdeps/
+
+# ---- Keil MDK / ARM 编译产物（host 侧集成进工程后会产生） ----
+host/**/Objects/
+host/**/Listings/
+host/**/DebugConfig/
+platform/**/output/
+platform/**/Objects/
+platform/**/Listings/
+*.uvoptx
+*.o
+*.d
+*.crf
+*.dep
+*.axf
+*.elf
+*.hex
+*.bin
+*.map
+*.lst
+*.lnp
+*.htm
+*.build_log.htm
+*.uvguix.*
+JLinkLog.txt
+
+# ---- 编辑器 / 系统 ----
+.vscode/
+.idea/
+*.bak
+*.tmp
+*.swp
+Thumbs.db
+desktop.ini
